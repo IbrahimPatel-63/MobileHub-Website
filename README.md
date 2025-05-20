@@ -1,6 +1,6 @@
 # MobileHub Website
 
-**MobileHub** is a basic front-end wwb project built using **HTML5** and **CSS3**.It displays a collection of mobile phones from top brands such as Vivo,Samsung,Xiaomi,and Motorola.Each phone card includes essential details like model name,RAM/ROM,camera information,And pricing.
+**MobileHub** is a basic front-end web project built using **HTML5** and **CSS3**.It displays a collection of mobile phones from top brands such as Vivo,Samsung,Xiaomi,and Motorola.Each phone card includes essential details like model name,RAM/ROM,camera information,and pricing.
 
 **This is my simple UI design created just for practicing HTML and CSS.**
 
