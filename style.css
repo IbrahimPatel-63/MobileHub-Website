@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-bar {
+  height: 65px;
+  width: 100vw;
+  background-color: #023047;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+}
+
+.links a {
+  text-decoration: none;
+  margin-right: 100px;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.logo p {
+  font-size: 2rem;
+}
+
+.logo {
+  position: relative;
+  right: 40px;
+  font-family: "cursive";
+  color: #12eaea;
+}
+
+.cart p {
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.input-box input {
+  height: 40px;
+  width: 370px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+}
+
+#btn1 {
+  height: 40px;
+  width: 50px;
+  background-color: #f08804;
+  position: relative;
+  right: 4px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: all 0.4s linear;
+}
+
+#btn1:hover {
+  background-color: #f08804;
+  opacity: 0.5;
+}
+
+#input::placeholder {
+  padding-left: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+#btn2 {
+  height: 35px;
+  width: 100px;
+  background-color: #009ffd;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  font-size: 1rem;
+}
+
+#btn2:hover {
+  opacity: 0.7;
+}
+
+.content {
+  height: 45vh;
+  display: flex;
+  background: linear-gradient(to right, #bce7fd, #12eaea, #c492b1, #f7a9a8);
+}
+
+.content p {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+  color: #0f1111;
+  margin-top: 8rem;
+}
+
+.content p span {
+  color: white;
+}
+
+body {
+  background-color: #e2e7e6;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #bce7fd;
+}
+
+.box {
+  height: 450px;
+  width: 23%;
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.box h2 {
+  margin-top: 20px;
+  margin-left: 17px;
+}
+
+.box p {
+  margin: 2px 0px 0px 17px;
+  color: #007185;
+}
+
+.inner-div {
+  height: 75%;
+  width: 90%;
+  margin-left: 17px;
+}
+
+#box1 {
+  background-image: url("./images/box1.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#box2 {
+  background-image: url("./images/box2.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#box3 {
+  background-image: url("./images/box3.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#box4 {
+  background-image: url("./images/box4.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#box5 {
+  background-image: url("./images/box5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#box6 {
+  background-image: url("./images/box6.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#box7 {
+  background-image: url("./images/box7.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#box8 {
+  background-image: url("./images/box8.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#box9 {
+  background-image: url("./images/box9.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#box10 {
+  background-image: url("./images/box10.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#box11 {
+  background-image: url("./images/box11.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+#box12 {
+  background-image: url("./images/box12.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#box13 {
+  background-image: url("./images/box13.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+#box14 {
+  background-image: url("./images/box14.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+#box15 {
+  background-image: url("./images/box15.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#box16 {
+  background-image: url("./images/box16.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+.mobile-image {
+  height: 50vh;
+  margin-top: 1rem;
+  background-image: url("./images/mobile.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.logo span {
+  color: #42e2b8;
+}
+
+.logo {
+  color: #faff7f;
+}
+
+.sections {
+  height: 50vh;
+  background-color: lightcoral;
+  display: flex;
+}
+
+.first-section {
+  height: 100%;
+  width: 50%;
+  background-color: rgba(192, 114, 59, 0.932);
+}
+
+.second-section {
+  height: 100%;
+  width: 50%;
+  background-color: lightskyblue;
+  background-image: url("./images/airplane.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.first-section p {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+  color: #0f1111;
+  margin-top: 8rem;
+}
+
+.first-section p span {
+  color: #eaf6ff;
+}
+
+.gototop {
+  height: 5vh;
+  background-color: #023047;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.2px solid white;
+}
+
+.gototop p a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.footer {
+  height: 30vh;
+  color: white;
+  background-color: #023047;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.location p {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.location i {
+  font-size: 1.5rem;
+  color: rgb(149, 135, 135);
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
+
+.location i:hover {
+  color: white;
+}
+
+.copyright {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.contact {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.4rem;
+  margin-right: 1.5rem;
+}
+
+.contact i {
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+
+.contact :nth-child(1):hover {
+  color: rgb(85, 85, 249);
+}
+
+.contact :nth-child(3):hover {
+  color: rgb(85, 85, 249);
+}
+
+.contact :nth-child(4):hover {
+  color: rgb(21, 241, 21);
+}
